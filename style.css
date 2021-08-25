@@ -1,3 +1,7 @@
+div, section, p, h1, h2, h3, h5, h6, span, a, img, form {
+    border: 1px solid black;
+}
+
 body {
 background: #202124;
 }
@@ -29,12 +33,11 @@ background: #202124;
     flex-direction: column;
     padding: 6px;
 }
-.about {
-    margin-left: 15px;
+
 }
 a.about-store {
     display: inline-block;
     padding: 5px;
-    margin: 0px;
+    margin: 0 5px;
     color: #bdc1c6;
 }
