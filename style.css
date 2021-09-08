@@ -1,57 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
 * {
-    box-sizing: border-box;
-}
-div, section, p, h1, h2, h3, h5, h6, span, a, img, form {
-    border: 1px solid black;
-    color: white;
+    box-sizing:border-box;
     text-decoration: none;
+    color: black;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: 400;;
 }
 
 body {
-background: #202124;
-}
-footer {
+    margin:0;
 
 }
-.google-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    margin-top: 100px;
-}
-.search-bar {
-    display: flex;
-    justify-content: center;
-}
-}
-.header-block {
-    display: inline;
-    align-items: center;
-    padding: 10px;   
-}
-
-
-a.about-store {
-    margin-left: 15px;
-    text-decoration: none;
-    color: white;
-}
-.footerDiv{
+nav {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
-}
-.footer {
-    justify-content: flex-start;
-}
-a.gmail-images {
-    float: right;
-    margin-right: 15px;
-    text-decoration: none;
+    background-color: black;
     color: white;
 }
-a.rightFooter {
+a {
+    margin: 5px 5px;
+    text-decoration: none;
+color: white;
+font-weight: 600;
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.50em;
+}
+img {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#menuLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#menuRight {
+    display: flex;
     justify-content: flex-end;
-    order: 2;
+    align-items: center;
+    margin-right: 20px;
+}
+#apps, #info {
+}
+h1 {
+    align-items: center;
+    
+}
+#search-bar {
+    display: flex;
+    padding: 5px;
+}
+button {
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 600;    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:ivory;
+}
+#footerRight {
+    margin-right: 10px;
 }
